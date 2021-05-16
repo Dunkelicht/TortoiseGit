@@ -23,7 +23,7 @@
 #include <Shlwapi.h>
 #pragma comment(lib, "shlwapi.lib")
 
-typedef std::basic_string<TCHAR> tstring;
+typedef std::basic_string<wchar_t> tstring;
 
 int wmain(int argc, wchar_t* argv[])
 {
